@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
+    <title>Imagen a Pantalla Completa</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: auto; /* Permite el scroll vertical y horizontal si es necesario */
+            background: black; /* Fondo negro para el área de scroll */
+        }
+        img {
+            display: block;
+            max-width: 100%; /* La imagen se ajusta al ancho del contenedor (viewport) */
+            height: auto; /* Mantiene la proporción de la imagen */
+            margin: 0 auto; /* Centra la imagen horizontalmente */
+        }
+    </style>
 </head>
 <body>
-    <h1>Bienvenido a mi página web</h1>
-    <img src="mi-imagen.jpg" alt="Descripción de la imagen">
+    <img src="Machoman$3.png" alt="Imagen a pantalla completa">
 </body>
 </html>
